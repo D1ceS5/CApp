@@ -1,0 +1,80 @@
+﻿body {
+   
+}
+.pdd{
+    padding-left: 50px;
+}
+#headright{
+    margin-right:150px;
+    margin-top: 15px;
+    float:right;
+    text-align:right;
+    display:inline-block;
+}
+.inl {
+    display: inline-block;
+    padding: 15px;
+    transform: scale(2)
+}
+.card:hover{
+    border:1px black solid;
+}
+#listline1{
+    display:inline-block;
+    text-align:center;
+}
+#listline2 {
+    margin-top: 200px;
+    display: inline-block;
+    text-align: center;
+}
+.pdd1{
+    padding-left: 250px;
+}
+
+.fx {
+  
+
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 99999;
+}
+  
+    .mrg {
+        margin-top: 60px;
+        z-index: 1;
+    }
+.droptext{
+    font-size: 20px;
+    position:relative;
+    z-index:99999;
+}
+#carlist{
+    text-align:center;
+
+}
+#search{
+    padding-left: 30px;
+    height:30px;
+    width:30px;
+    border: 1px red solid;
+    border-radius: 50%;
+}
+.pdd{
+    padding-left:50px;
+}
+@keyframes slide{
+    from {
+        width: 30px;
+        border-radius: 50%;
+    }
+    to {
+        width: 140px;
+        border-radius: 100px;
+    }
+}
+#search:hover {
+    animation: slide 1s ease-in;
+    animation-fill-mode: forwards;
+}
